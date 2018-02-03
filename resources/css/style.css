@@ -8,15 +8,26 @@ header {
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
-header p {
+.logo {
+  display: flex;
+  align-items: center;
   color: MediumAquamarine;
-  margin-left: 10px;
 }
 
-nav span {
-  display: inline-block;
+.logo span {
+  margin-left: 15px;
+}
+
+nav {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
   text-decoration: underline;
+}
+
+.main_container {
+  border: 5px solid black;
 }
