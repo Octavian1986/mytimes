@@ -1,0 +1,22 @@
+html {
+
+}
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header p {
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+}
