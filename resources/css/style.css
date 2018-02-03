@@ -21,6 +21,10 @@ header {
   margin-left: 15px;
 }
 
+div {
+  border: 1px solid black;
+}
+
 nav {
   display: flex;
   width: 250px;
@@ -29,5 +33,33 @@ nav {
 }
 
 .main_container {
-  border: 5px solid black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1250px;
+  height: 650px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 600px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.newsitem.short p {
+  margin: 0;
 }
