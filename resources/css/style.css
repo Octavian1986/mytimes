@@ -4,7 +4,7 @@ html {
 
 header {
   display: flex;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   height: 90px;
   width: 100%;
   background-color: white;
@@ -46,14 +46,14 @@ nav {
   justify-content: space-between;
   align-items: flex-end;
   width: 1250px;
-  height: 2000px;
+  height: 1160px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 1960px;
+  height: 1120px;
 }
 
 .newsitem {
@@ -72,6 +72,23 @@ nav {
 
 .column.small {
   width: 240px;
+}
+
+.column.small h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.column.small p {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  margin: 0;
 }
 
 .image {
